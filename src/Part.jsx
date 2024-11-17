@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function 
 ({part}) {
-  console.log(part)
   // const data = parts.map((part)=>{
   //   return <p key={part.name}>{part.name} {part.exercises}</p>
   // })
