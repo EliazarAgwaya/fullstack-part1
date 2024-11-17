@@ -4,9 +4,9 @@ export default function
 (props) {
   return (
     <div>
-        <p>{props.data.part1} {props.data.exercises1}</p>
-        <p>{props.data.part2} {props.data.exercises2}</p>
-        <p>{props.data.part3} {props.data.exercises3}</p>
+        <p>{props.data.part1.name} {props.data.part1.exercises}</p>
+        <p>{props.data.part2.name} {props.data.part2.exercises}</p>
+        <p>{props.data.part3.name} {props.data.part3.exercises}</p>
     </div>
   )
 }
