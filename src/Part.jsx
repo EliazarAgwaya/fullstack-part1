@@ -1,12 +1,16 @@
 import React from 'react'
 
 export default function 
-(props) {
+({part}) {
+  console.log(part)
+  // const data = parts.map((part)=>{
+  //   return <p key={part.name}>{part.name} {part.exercises}</p>
+  // })
   return (
     <div>
-        <p>{props.data.part1.name} {props.data.part1.exercises}</p>
-        <p>{props.data.part2.name} {props.data.part2.exercises}</p>
-        <p>{props.data.part3.name} {props.data.part3.exercises}</p>
+      <p>{part.name} {part.exercises}</p>
+      {/* {data} */}
+      {/* {parts.map(part=><p key={part.name}>{part.name} {part.exercises}</p>)} */}
     </div>
   )
 }
